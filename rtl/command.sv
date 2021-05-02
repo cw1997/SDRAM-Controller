@@ -81,3 +81,52 @@ begin
     DRAM_ADDR  = {3'b000, write_burst_mode, operating_mode, latency_mode, burst_type, decode_burst_length(burst_length)};
 end
 endtask
+
+// Bank activate (ACT)
+task ACT(
+    logic [ 1:0] bank,
+    logic [12:0] row_address
+);
+begin
+    DRAM_CS_N  = 0;
+    DRAM_RAS_N = 0;
+    DRAM_CAS_N = 1;
+    DRAM_WE_N  = 1;
+    DRAM_BA    = bank;
+    DRAM_ADDR  = row_address;
+end
+endtask
+
+// Read (READ)
+task READ(
+    logic [ 1:0] bank,
+    logic [ 9:0] column_address,
+    logic        need_auto_precharge
+);
+begin
+    DRAM_CS_N      = 0;
+    DRAM_RAS_N     = 1;
+    DRAM_CAS_N     = 0;
+    DRAM_WE_N      = 1;
+    DRAM_BA        = bank;
+    DRAM_ADDR[9:0] = column_address;
+    DRAM_ADDR[10]  = need_auto_precharge;
+end
+endtask
+
+// Write (WRITE)
+task WRITE(
+    logic [ 1:0] bank,
+    logic [ 9:0] column_address,
+    logic        need_auto_precharge
+);
+begin
+    DRAM_CS_N      = 0;
+    DRAM_RAS_N     = 1;
+    DRAM_CAS_N     = 0;
+    DRAM_WE_N      = 0;
+    DRAM_BA        = bank;
+    DRAM_ADDR[9:0] = column_address;
+    DRAM_ADDR[10]  = need_auto_precharge;
+end
+endtask
