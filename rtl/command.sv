@@ -33,7 +33,8 @@ begin
     DRAM_RAS_N = 0;
     DRAM_CAS_N = 1;
     DRAM_WE_N  = 0;
-    DRAM_BA = 2'b11;
+    DRAM_BA    = 2'b11;
+    DRAM_DQ_r  = {32{1'bz}};
     DRAM_ADDR[10] = 0; 
 end
 endtask
@@ -45,6 +46,7 @@ begin
     DRAM_RAS_N = 0;
     DRAM_CAS_N = 0;
     DRAM_WE_N  = 1; 
+    DRAM_DQ_r  = {32{1'bz}};
 end
 endtask
 
