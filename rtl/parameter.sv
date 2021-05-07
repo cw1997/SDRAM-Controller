@@ -7,12 +7,12 @@
 localparam bit_width = 8;
 
 // tCAC CAS_Latency
-function [bit_width-1:0] tCAC(logic [bit_width-1:0] clock_frequency_mhz);
-    unique case (clock_frequency_mhz)
+function [bit_width-1:0] tCAC(logic [bit_width-1:0] clock_frequency);
+    unique case (clock_frequency)
         166    : tCAC = 3;
         133    : tCAC = 2;
         100    : tCAC = 2;
-        default: tCAC = 3;
+        default: tCAC = 2;
     endcase
 endfunction
 
