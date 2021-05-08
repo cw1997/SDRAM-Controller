@@ -1,0 +1,127 @@
+m255
+K3
+z0
+!s11f MIXED_VERSIONS
+13
+cModel Technology
+dC:\my\GitHub\cw1997\sdram_controller\simulation\modelsim
+vauto_refresh_counter
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1620481500
+!i10b 1
+!s100 Jne_;Bi:amdhi?5im4VPe2
+I@YlcGhDa1?T:b0JlGIoGZ1
+S1
+Z2 dC:/my/GitHub/cw1997/SDRAM-Controller/simulation/modelsim
+Z3 w1620409604
+8C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv
+!i122 3
+L0 1 38
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1620481500.000000
+!s107 C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vauto_refresh_counter_tb
+R0
+R1
+!i10b 1
+!s100 22e`X7kNNKcZmAaiQgUmo2
+I;KEWlSb5Zo37>88joCa`A3
+S1
+R2
+R3
+8C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv
+!i122 4
+L0 8 44
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv|
+!i113 1
+R7
+R8
+vedge_detect
+Z9 !s110 1620481499
+!i10b 1
+!s100 FW9bZebF4kEgI_lRP_Mz82
+ILcc?0UGlUejPM;zV4S=i^0
+R2
+w1615979965
+8C:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v
+!i122 2
+L0 3 44
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1620481499.000000
+!s107 C:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v|
+!i113 1
+o-work work
+R8
+vsdram_controller
+R0
+R9
+!i10b 1
+!s100 Jm]m`SfknmYTfJczAEg]e1
+IU:BD9okLSKVhMJ6PH`9O00
+S1
+R2
+w1620409700
+8C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/parameter.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/command.sv
+!i122 0
+L0 7 441
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/my/GitHub/cw1997/SDRAM-Controller/rtl/command.sv|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/parameter.sv|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv|
+!i113 1
+R7
+R8
+vsdram_controller_tb
+R0
+R9
+!i10b 1
+!s100 Qn59=?i=Cea7Z48`1oXH61
+IZz?`OcJ9HWZkJL4ifBfF>2
+S1
+R2
+w1619941812
+8C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv
+FC:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv
+!i122 1
+L0 8 81
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv|
+!i113 1
+R7
+R8

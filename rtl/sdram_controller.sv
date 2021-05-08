@@ -43,6 +43,7 @@ module sdram_controller #(
     input  logic        clock, reset
 );
 
+logic write_enable_latch;
 reg [31:0] DRAM_DQ_r;
 assign DRAM_DQ = write_enable_latch ? DRAM_DQ_r : {32{1'bz}};
 assign read_data = DRAM_DQ;
@@ -93,7 +94,6 @@ edge_detect edge_detect_write_enable (
     .pos_edge ( write_enable_posedge_edge )
 );
 
-logic write_enable_latch;
 always_ff @( posedge clock or posedge reset ) begin : latch_write_enable
     if (reset) begin
         write_enable_latch <= 0;

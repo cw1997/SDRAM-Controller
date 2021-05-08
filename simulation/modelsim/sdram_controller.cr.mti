@@ -1,0 +1,36 @@
+C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv {1 {vlog -work work -sv C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sdram_controller_tb
+
+Top level modules:
+	sdram_controller_tb
+
+} {} {}} C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv {1 {vlog -work work -sv C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module auto_refresh_counter_tb
+
+Top level modules:
+	auto_refresh_counter_tb
+
+} {} {}} C:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v {1 {vlog -work work C:/my/GitHub/cw1997/SDRAM-Controller/rtl/edge_detect.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module edge_detect
+
+Top level modules:
+	edge_detect
+
+} {} {}} C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv {1 {vlog -work work -sv C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sdram_controller
+
+Top level modules:
+	sdram_controller
+
+} {} {}} C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv {1 {vlog -work work -sv C:/my/GitHub/cw1997/SDRAM-Controller/rtl/auto_refresh_counter.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module auto_refresh_counter
+
+Top level modules:
+	auto_refresh_counter
+
+} {} {}}

@@ -1,0 +1,84 @@
+# Current time Fri Apr 30 18:17:01 2021
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x00446482: '<unknown (@0x446482)>'
+# 1    0xffa27a55: 'C:/my/GitHub/cw1997/SDRAM-Controller/rtl/parameter.sv:14'
+# 2    0xfde3ef46: 'C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv:30'
+# 3    0x005076a2: '<unknown (@0x5076a2)>'
+# 4    0x00634f1b: '<unknown (@0x634f1b)>'
+# 5    0x00634fa8: '<unknown (@0x634fa8)>'
+# 6    0x0063f7fd: '<unknown (@0x63f7fd)>'
+# 7    0x0067a83b: '<unknown (@0x67a83b)>'
+# 8    0x0067cbc3: '<unknown (@0x67cbc3)>'
+# 9    0x00781413: '<unknown (@0x781413)>'
+# 10   0x008a3487: '<unknown (@0x8a3487)>'
+# 11   0x00781692: '<unknown (@0x781692)>'
+# 12   0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 13   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 14   0x1002d7bb: 'TclExprFloatError + 0x10eb' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 15   0x1002bc79: 'TclCompEvalObj + 0xd9' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 16   0x1000efc6: 'Tcl_EvalObjEx + 0x56' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 17   0x100116f5: 'Tcl_CatchObjCmd + 0x45' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 18   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 19   0x1002d7bb: 'TclExprFloatError + 0x10eb' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 20   0x1002baea: 'Tcl_ExprObj + 0x3ca' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 21   0x1000d0b7: 'Tcl_ExprBooleanObj + 0x17' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 22   0x100140ff: 'Tcl_IfObjCmd + 0x3f' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 23   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 24   0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 25   0x00a02c54: '<unknown (@0xa02c54)>'
+# 26   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 27   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 28   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 29   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 30   0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 31   0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+
+# Current time Fri Apr 30 22:37:27 2021
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x00446482: '<unknown (@0x446482)>'
+# 1    0xff0261d9: 'C:/my/GitHub/cw1997/SDRAM-Controller/rtl/parameter.sv:14'
+# 2    0xfef98a7e: 'C:/my/GitHub/cw1997/SDRAM-Controller/rtl/sdram_controller.sv:31'
+# 3    0x005076a2: '<unknown (@0x5076a2)>'
+# 4    0x00634f1b: '<unknown (@0x634f1b)>'
+# 5    0x00634fa8: '<unknown (@0x634fa8)>'
+# 6    0x0063f7fd: '<unknown (@0x63f7fd)>'
+# 7    0x0067a83b: '<unknown (@0x67a83b)>'
+# 8    0x0067cbc3: '<unknown (@0x67cbc3)>'
+# 9    0x00781413: '<unknown (@0x781413)>'
+# 10   0x008a3487: '<unknown (@0x8a3487)>'
+# 11   0x00781692: '<unknown (@0x781692)>'
+# 12   0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 13   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 14   0x1002d7bb: 'TclExprFloatError + 0x10eb' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 15   0x1002bc79: 'TclCompEvalObj + 0xd9' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 16   0x1000efc6: 'Tcl_EvalObjEx + 0x56' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 17   0x100116f5: 'Tcl_CatchObjCmd + 0x45' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 18   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 19   0x1002d7bb: 'TclExprFloatError + 0x10eb' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 20   0x1002baea: 'Tcl_ExprObj + 0x3ca' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 21   0x1000d0b7: 'Tcl_ExprBooleanObj + 0x17' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 22   0x100140ff: 'Tcl_IfObjCmd + 0x3f' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 23   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 24   0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 25   0x00a02c54: '<unknown (@0xa02c54)>'
+# 26   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 27   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 28   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 29   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.0sp1\modelsim_ae\win32aloem\tcl84.dll'
+# 30   0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 31   0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+
