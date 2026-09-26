@@ -50,3 +50,27 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ModelSim / Questa
+# keep project files: *.mpf, *.cr.mti, *.do
+work/
+transcript
+transcript.*
+*.wlf
+*.wlf.*
+*.vstf
+*.wlfidx
+wlft*
+*.shm
+*.mpf_new
+*.mti_new
+*.do_new
+modelsim.ini
+modelsim.ini.bak
+*.bak
+*.log
+*.key
+*.so.gz
+mvis_save.tcl
+vis_liblist
+visliblist
