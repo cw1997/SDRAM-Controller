@@ -74,3 +74,40 @@ modelsim.ini.bak
 mvis_save.tcl
 vis_liblist
 visliblist
+
+# Quartus / Intel FPGA
+# keep project files: *.qpf, *.qsf, *.qdf, *.sdc, IP directories (*.qip, *.v, *.bsf, ...)
+
+# Quartus working directories
+db/
+greybox_tmp/
+incremental_db/
+output_files/
+
+# Quartus compilation databases
+*.ddb
+*.qdb
+*.qcdb
+*.qip_asm
+
+# Quartus reports, messages and generated constraint files
+*.rpt
+*.rpt.html
+*.htm
+*.done
+*.qmsg
+*.qws
+*.smsg
+*.summary
+*.out.sdc
+*.cstr
+*_assignment_defaults.qdf
+*.sld_design_entry.sci
+*_PLLSPE_INFO.txt
+
+# Netlist / backup leftovers
+*.orig
+*.v.bak
+
+# IDE
+.idea/
